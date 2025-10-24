@@ -156,7 +156,9 @@ potencial_score = round(0.4 * z_empresas + 0.6 * z_transporte)
 
 O pipeline pode ser adaptado para execução automática e escalável utilizando arquitetura na **AWS**:
 
-![Arquitetura Sugerida ](https://github.com/LLR798/Desafio-Place/blob/main/docs/arquitetura.png)
+<p align="center">
+  <img alt="arquitetura" src="https://github.com/LLR798/Desafio-Place/blob/main/docs/arquitetura-sugerida.png?raw=true" width="100%">
+</p>
 
 ### Componentes Sugeridos:
 
@@ -169,6 +171,7 @@ O pipeline pode ser adaptado para execução automática e escalável utilizando
 | Banco de Consulta       | AWS Athena ou Redshift      |
 | Visualização            | Power BI, Tableau, Quicksight, etc |
 | DataOps                 | GitLab e Terraform          |
+| Governança e Observabilidade | Great Expactations, Glue Data Catalog e CloudWatch |
 
 ---
 
