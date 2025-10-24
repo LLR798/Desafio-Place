@@ -156,9 +156,7 @@ potencial_score = round(0.4 * z_empresas + 0.6 * z_transporte)
 
 O pipeline pode ser adaptado para execução automática e escalável utilizando arquitetura na **AWS**:
 
-<p align="center">
-  <img alt="arquitetura" src="https://github.com/LLR798/Desafio-Place/blob/main/docs/arquitetura-sugerida.png?raw=true" width="100%">
-</p>
+![Arquitetura Sugerida](https://raw.githubusercontent.com/LLR798/Desafio-Place/main/docs/arquitetura-sugerida.png)
 
 ### Componentes Sugeridos:
 
