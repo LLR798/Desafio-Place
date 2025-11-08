@@ -4,9 +4,9 @@ from sklearn.neighbors import BallTree
 import os
 
 # === 1. Caminhos dos arquivos SILVER ===
-path_empresas = '/Users/lucaslumertz/Documents/1Programacao/challanges/PLACE v2/data/silver/df_empresas_silver.csv'
-path_bairros = '/Users/lucaslumertz/Documents/1Programacao/challanges/PLACE v2/data/silver/df_bairros_silver.csv'
-path_onibus = '/Users/lucaslumertz/Documents/1Programacao/challanges/PLACE v2/data/silver/df_pontos_onibus_silver.csv'
+path_empresas = '/Users/lucaslumertz/Documents/1Programacao/challanges/DESAFIO-PLACE/data/silver/df_empresas_silver.csv'
+path_bairros = '/Users/lucaslumertz/Documents/1Programacao/challanges/DESAFIO-PLACE/data/silver/df_bairros_silver.csv'
+path_onibus = '/Users/lucaslumertz/Documents/1Programacao/challanges/DESAFIO-PLACE/data/silver/df_pontos_onibus_silver.csv'
 
 # === 2. Leitura dos arquivos ===
 df_empresas = pd.read_csv(path_empresas, sep=';')
@@ -86,7 +86,7 @@ df_gold = df_bairros[[
 ]].sort_values(by='potencial_score', ascending=False)
 
 # === 11. Salvamento da camada GOLD ===
-output_path = '/Users/lucaslumertz/Documents/1Programacao/challanges/PLACE v2/data/gold/regioes_promissoras_gold.csv'
+output_path = '/Users/lucaslumertz/Documents/1Programacao/challanges/DESAFIO-PLACE/data/gold/regioes_promissoras_gold.csv'
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 df_gold.to_csv(output_path, sep=';', index=False)
 

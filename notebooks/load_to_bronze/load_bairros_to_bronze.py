@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # === 1. LEITURA DO ARQUIVO ===
-path = '/Users/lucaslumertz/Documents/1Programacao/challanges/PLACE v2/data/input/20230502_bairro_oficial.csv' 
+path = '/Users/lucaslumertz/Documents/1Programacao/challanges/DESAFIO-PLACE/data/input/20230502_bairro_oficial.csv' 
 
 try:
     df = pd.read_csv(

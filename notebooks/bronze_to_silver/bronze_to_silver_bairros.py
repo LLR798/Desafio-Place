@@ -5,8 +5,8 @@ from shapely.geometry import Polygon, MultiPolygon
 from pyproj import Transformer
 
 # Caminhos
-bronze_path = '/Users/lucaslumertz/Documents/1Programacao/challanges/PLACE v2/data/bronze/df_bairros_bronze.csv'
-silver_path = '/Users/lucaslumertz/Documents/1Programacao/challanges/PLACE v2/data/silver/df_bairros_silver.csv'
+bronze_path = '/Users/lucaslumertz/Documents/1Programacao/challanges/DESAFIO-PLACE/data/bronze/df_bairros_bronze.csv'
+silver_path = '/Users/lucaslumertz/Documents/1Programacao/challanges/DESAFIO-PLACE/data/silver/df_bairros_silver.csv'
 
 # Garante que a pasta silver existe
 os.makedirs(os.path.dirname(silver_path), exist_ok=True)

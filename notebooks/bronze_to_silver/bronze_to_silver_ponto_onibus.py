@@ -3,8 +3,8 @@ import os
 from pyproj import Transformer
 
 # Caminhos dos arquivos
-bronze_path = '/Users/lucaslumertz/Documents/1Programacao/challanges/PLACE v2/data/bronze/df_pontos_onibus_bronze.csv'
-silver_path = '/Users/lucaslumertz/Documents/1Programacao/challanges/PLACE v2/data/silver/df_pontos_onibus_silver.csv'
+bronze_path = '/Users/lucaslumertz/Documents/1Programacao/challanges/DESAFIO-PLACE/data/bronze/df_pontos_onibus_bronze.csv'
+silver_path = '/Users/lucaslumertz/Documents/1Programacao/challanges/DESAFIO-PLACE/data/silver/df_pontos_onibus_silver.csv'
 
 # Cria a pasta silver se não existir
 os.makedirs(os.path.dirname(silver_path), exist_ok=True)

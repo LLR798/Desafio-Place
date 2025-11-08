@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # === 1. LEITURA DO ARQUIVO ===
-path = '/Users/lucaslumertz/Documents/1Programacao/challanges/PLACE v2/data/input/20251001_ponto_onibus.csv' 
+path = '/Users/lucaslumertz/Documents/1Programacao/challanges/DESAFIO-PLACE/data/input/20251001_ponto_onibus.csv' 
 
 try:
     df = pd.read_csv(
@@ -24,7 +24,7 @@ except Exception as e:
 
 # === 2. SALVAMENTO DO DATAFRAME ===
 # Diretório de saída
-output_dir = '/Users/lucaslumertz/Documents/1Programacao/challanges/PLACE v2/data/bronze'
+output_dir = '/Users/lucaslumertz/Documents/1Programacao/challanges/DESAFIO-PLACE/data/bronze'
 
 # Garante que o diretório existe
 os.makedirs(output_dir, exist_ok=True)
